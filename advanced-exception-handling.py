@@ -1,4 +1,5 @@
 from random import random
+
 # --- Custom Exceptions ---
 class AccountException(Exception):
     def __init__(self, exception_msg: str, cause: Exception = None, account_id: str = None):
